@@ -39,6 +39,7 @@ input {
   margin-top: 20px;
   height: 28px;
   width: 100%;
+  border-radius: 8px;
 }
 .container {
   margin-top: 20px;
@@ -59,4 +60,30 @@ input {
   top: -8px;
   background: #000;
   color: white;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 18px;
+  }
+  .fa-brands {
+    font-size: 20px;
+  }
+  .fa-solid {
+    font-size: 19px;
+  }
+  .Transformed {
+    margin-top: 30px;
+    height: 39px;
+    background: rgba(255, 255, 201, 0.993);
+    position: relative;
+  }
+  .Transformed label {
+    position: absolute;
+    left: 16px;
+    top: -8px;
+    background: #000;
+    color: white;
+    font-size: 14px;
+  }
 }
