@@ -40,19 +40,22 @@ input {
   height: 28px;
   width: 100%;
   border-radius: 8px;
+  font-size: large;
+  padding: 15px 9px;
 }
 .container {
   margin-top: 20px;
   max-width: 1200px;
-  text-align: center;
+  text-align: left;
   margin-inline: auto;
   padding: 0 20px;
 }
 .Transformed {
   margin-top: 40px;
-  height: 50px;
-  background: rgba(255, 255, 201, 0.993);
+  padding: 18px 15px;
+  background: rgba(255, 255, 224, 0.993);
   position: relative;
+  text-align: left;
 }
 .Transformed label {
   position: absolute;
@@ -77,6 +80,10 @@ input {
     height: 39px;
     background: rgba(255, 255, 201, 0.993);
     position: relative;
+  }
+  input {
+    font-size: large;
+    padding: 15px 9px;
   }
   .Transformed label {
     position: absolute;
