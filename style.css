@@ -50,15 +50,13 @@ input {
   margin-inline: auto;
   padding: 0 20px;
 }
-span {
-  word-wrap: break-word;
-}
 .Transformed {
   margin-top: 40px;
   padding: 18px 15px;
   background: rgba(255, 255, 224, 0.993);
   position: relative;
   text-align: left;
+  word-wrap: break-word;
 }
 .Transformed label {
   position: absolute;
@@ -80,9 +78,9 @@ span {
   }
   .Transformed {
     margin-top: 30px;
-    height: 39px;
     background: rgba(255, 255, 201, 0.993);
     position: relative;
+    word-wrap: break-word;
   }
   input {
     font-size: large;
@@ -95,8 +93,5 @@ span {
     background: #000;
     color: white;
     font-size: 14px;
-  }
-  span {
-    word-wrap: break-word;
   }
 }
